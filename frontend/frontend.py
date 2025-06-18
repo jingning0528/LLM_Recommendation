@@ -23,7 +23,8 @@ if user_input:
     # Prepare request to FastAPI
     try:
         response = requests.post(
-            "http://localhost:8000/recommend",
+            #"http://localhost:8000/recommend",
+            "https://llm-recommendation.onrender.com/recommend",
             json={
                 "message": user_input,
                 "history": st.session_state.messages[:-1]
