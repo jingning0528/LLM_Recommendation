@@ -1,5 +1,2 @@
-fastapi
-openai
-uvicorn
 streamlit
 requests
